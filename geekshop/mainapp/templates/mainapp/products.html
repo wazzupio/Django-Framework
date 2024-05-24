@@ -65,7 +65,7 @@
                             <p class="card-text">{{ product.description }}</p>
                         </div>
                         <div class="card-footer text-center">
-                            <button type="button" class="btn btn-outline-success">{{ button_text }}</button>
+                            <a href="{% url 'baskets:basket_add' product.id %}" class="btn btn-outline-success">{{ button_text }}</a>
                         </div>
                     </div>
                 </div>
