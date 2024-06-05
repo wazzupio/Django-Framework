@@ -23,3 +23,12 @@ def products(request):
         'footer_copyright': 'Copyright © GeekShop 2024'
     }
     return render(request, 'mainapp/products.html', context)
+
+
+def detail(request, product_id):
+    context = {
+        'title': 'geekshop - детализация',
+        'product': Product.objects.get(id=product_id),
+        'footer_copyright': 'Copyright © GeekShop 2024'
+    }
+    return render(request, 'mainapp/detail.html', context)
