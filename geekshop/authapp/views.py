@@ -31,7 +31,6 @@ def login(request):
 
 
 def register(request):
-    validate_min_length_errors = ''
     if request.method == 'POST':
         form = UserRegisterForm(data=request.POST)
         validate_min_length_errors = validate_min_length(form)
@@ -50,7 +49,6 @@ def register(request):
     context = {
         'title': 'geekshop - регистрация',
         'form': form,
-        'validate_min_length_errors': validate_min_length_errors,
     }
     return render(request, 'authapp/register.html', context)
 

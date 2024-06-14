@@ -17,8 +17,8 @@ def products(request):
     context = {
         'title': 'geekshop - каталог',
         'heading': 'GeekShop',
-        'product_categories': ProductCategory.objects.all(),
-        'products': Product.objects.all(),
+        'product_categories': ProductCategory.objects.filter(is_active=True),
+        'products': Product.objects.filter(is_active=True),
         'button_text': 'Отправить в корзину',
         'footer_copyright': 'Copyright © GeekShop 2024'
     }

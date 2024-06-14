@@ -1,11 +1,13 @@
+{% load static %}
 <div class="card_add_basket">
     <div class="row">
         {% for product in products %}
-            <div class="col-lg-4 col-md-6 mb-4">
+            {% if product.is_active and product.category.is_active %}
+                <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100">
                     <a href="{% url 'mainapp:detail' product.id %}">
                         <img class="card-img-top"
-                             src="{{ product.image.url }}"
+                             src="{% if product.image %} {{ product.image.url }} {% else %} {% static 'vendor/img/products/default-image.jpg' %} {% endif %}"
                              alt="">
                     </a>
                     <div class="card-body">
@@ -22,6 +24,7 @@
                     </div>
                 </div>
             </div>
+            {% endif %}
         {% endfor %}
     </div>
 </div>
