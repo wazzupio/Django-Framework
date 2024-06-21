@@ -1,0 +1,44 @@
+[
+  {
+    "img_url": "/static/vendor/img/products/Adidas-hoodie.png",
+    "product_name": "Худи черного цвета с монограммами adidas Originals",
+    "product_price": "6 090 руб.",
+    "product_description": "Мягкая ткань для свитшотов. Стиль и комфорт – это образ жизни.",
+    "button_text": "Отправить в корзину"
+  },
+  {
+    "img_url": "/static/vendor/img/products/Blue-jacket-The-North-Face.png",
+    "product_name": "Синяя куртка The North Face",
+    "product_price": "23 725 руб.",
+    "product_description": "Гладкая ткань. Водонепроницаемое покрытие. Легкий и теплый пуховый наполнитель.",
+    "button_text": "Отправить в корзину"
+  },
+  {
+    "img_url": "/static/vendor/img/products/Brown-sports-oversized-top-ASOS-DESIGN.png",
+    "product_name": "Коричневый спортивный oversized-топ ASOS DESIGN",
+    "product_price": "3 390 руб.",
+    "product_description": "Материал с плюшевой текстурой. Удобный и мягкий.",
+    "button_text": "Отправить в корзину"
+  },
+  {
+    "img_url": "/static/vendor/img/products/Black-Nike-Heritage-backpack.png",
+    "product_name": "Черный рюкзак Nike Heritage",
+    "product_price": "2 340 руб.",
+    "product_description": "Плотная ткань. Легкий материал.",
+    "button_text": "Отправить в корзину"
+  },
+  {
+    "img_url": "/static/vendor/img/products/Black-Dr-Martens-shoes.png",
+    "product_name": "Черные туфли на платформе с 3 парами люверсов Dr Martens 1461 Bex",
+    "product_price": "13 590 руб.",
+    "product_description": "Гладкий кожаный верх. Натуральный материал.",
+    "button_text": "Отправить в корзину"
+  },
+  {
+    "img_url": "/static/vendor/img/products/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png",
+    "product_name": "Темно-синие широкие строгие брюки ASOS DESIGN",
+    "product_price": "2 890 руб.",
+    "product_description": "Легкая эластичная ткань сирсакер Фактурная ткань.",
+    "button_text": "Отправить в корзину"
+  }
+]
